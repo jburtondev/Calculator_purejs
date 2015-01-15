@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jamie Burton - Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    
+<p style ="float:right">Output: </p>
+<div id = "calculator-container">
+    <div id="input-container">
+    </div>
+
+    <div class="btn-container">
+        <div class="row">
+            <div id="7" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">7</div>
+            <div id="8" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">8</div>
+            <div id="9" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">9</div>
+            <div id="×" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">×</div>
+        </div>
+        <div class="row">
+            <div id="4" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">4</div>
+            <div id="5" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">5</div>
+            <div id="6" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">6</div>
+            <div id="+" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">+</div>
+        </div>
+
+        <div class="row">
+            <div id="1" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">1</div>
+            <div id="2" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">2</div>
+            <div id="3" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">3</div>
+            <div id="-" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">-</div>
+        </div>
+        <div class="row">
+            <div id="0" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">0</div>
+            <div id="." onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">.</div>
+            <div id="=" onClick="calculator.runCalculation(this.id)" class="btn spacing">=</div>
+            <div id="÷" onClick="calculator.runAddToCalculation(this.id)" class="btn spacing">÷</div>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <script src="js/calculator.js"></script>
+    <script src="js/operators.js"></script>
+</body>
+
+</html>
