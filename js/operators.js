@@ -2,8 +2,6 @@
  * Implement a browser-based calculator.
  *
  * @author  Jamie Burton
- * @version 1.0
- * @studentID 4082422
  *
  */
 
